@@ -26,22 +26,24 @@ body {
 nav > ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav > ul > li {
     border-top: 1px solid black;
-    padding: 12px 30px;
+    padding: 13px 30px;
     font-size: 16px;
     text-align: left;
 }
 
 #nav-header {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
 header {
-    font-size: 26px;
+    font-size: 28px;
     font-style: bold;
 }
 
@@ -49,3 +51,17 @@ header {
     position: absolute;
     margin-left: 320px;
 }
+
+/* code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  } */
