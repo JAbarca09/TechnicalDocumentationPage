@@ -2,20 +2,50 @@
     font-family: "Open Sans", Arial, sans-serif ;
 }
 
-nav{    
-    width: 268px;
-    float: left;
-    display: inline;
+body {
+    margin: 0;
+}
+
+#navbar{    
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     margin: 0;
     padding: 0;
     margin-right: 10px;
+    border-right: 2px solid gray;
   }
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
 
 nav > ul {
     list-style: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    border-top: 1px solid black;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#nav-header {
+    padding-top: 10px;
+    text-align: center;
 }
 
 header {
     font-size: 26px;
     font-style: bold;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 320px;
 }
