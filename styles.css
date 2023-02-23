@@ -97,6 +97,7 @@ code {
 
 /* media query for different screens */
 
+/* Center the headings as well! */
 @media (max-width: 768px) {
   #navbar {
     width: 100%;
@@ -106,10 +107,13 @@ code {
     padding: 0;
     margin-right: 0px;
     border-right: 2px solid gray;
+    border-left: 2px solid gray;
   }
 
   #main-doc {
-    padding: 20px;
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: 0px;
   }
 
@@ -119,5 +123,5 @@ code {
     font-size: 16px;
     text-align: center;
     color: #4d4e53;
-  }
+  } 
 }
