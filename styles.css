@@ -133,4 +133,14 @@ code {
   section > header {
     text-align: center;
   }
+
+  article {
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  code {
+    margin: 10px 0;
+    padding: 15px 0;
+  }
 }
